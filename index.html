@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0c0e" />
+    <meta name="description" content="吴晨耕的私密能力档案：Agent、语料、LLM、项目管理与数据分析。" />
+    <title>吴晨耕 / Private Capability Archive</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#opening" aria-label="回到开场">
+        <span class="brand__mark">W</span>
+        <span class="brand__text">PRIVATE<br />CAPABILITY ARCHIVE</span>
+      </a>
+      <span class="private-label"><i></i> LOCAL / PRIVATE</span>
+    </header>
+
+    <nav class="chapter-nav" aria-label="页面章节">
+      <a href="#opening" data-nav="opening"><span>00</span><b>PROFILE</b></a>
+      <a href="#bachelor" data-nav="bachelor"><span>01</span><b>BACHELOR</b></a>
+      <a href="#master" data-nav="master"><span>02</span><b>MASTER</b></a>
+      <a href="#internships" data-nav="internships"><span>03</span><b>INTERNSHIPS</b></a>
+      <a href="#capabilities" data-nav="capabilities"><span>04</span><b>CAPABILITIES</b></a>
+      <a href="#projects" data-nav="projects"><span>05</span><b>PROJECTS</b></a>
+    </nav>
+
+    <main id="main-content">
+      <section class="page opening" id="opening" data-section="opening">
+        <div class="opening__grid" aria-hidden="true"></div>
+        <div class="page__inner opening__inner">
+          <div class="section-top reveal"><span class="eyebrow" data-profile="eyebrow"></span><span class="scene-code">SCENE 00 / PROFILE</span></div>
+          <div class="opening__content">
+            <div class="opening__profile-grid">
+              <div class="opening__photo reveal"><img src="assets/profile.png" alt="吴晨耕个人照片" /></div>
+              <div class="opening__copy">
+                <p class="opening__pretitle reveal">A PRIVATE INTRODUCTION</p>
+                <h1 class="opening__name reveal" data-profile="name"></h1>
+                <p class="opening__english reveal" data-profile="englishName"></p>
+                <p class="party-status reveal" data-profile="partyStatus"></p>
+                <p class="opening__statement reveal" data-profile="statement"></p>
+                <div class="opening__contact reveal">
+                  <span data-profile="location"></span>
+                  <a data-profile-link="email"></a>
+                  <span data-profile="phone"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="opening__bottom reveal"><span>BASIC INFORMATION / 01</span><a href="#bachelor">继续阅读 <b>↓</b></a></div>
+        </div>
+      </section>
+
+      <section class="page education-page education-page--light" id="bachelor" data-section="bachelor">
+        <div class="page__inner education-page__inner">
+          <div class="section-top reveal"><span class="eyebrow">EDUCATION / BACHELOR</span><span class="scene-code">PAGE 01 / 02</span></div>
+          <div class="education-heading">
+            <span class="chapter-number reveal">01</span>
+            <div><p class="display-kicker reveal" data-education="bachelor.kicker"></p><h2 class="display-title reveal" data-education="bachelor.title"></h2></div>
+          </div>
+          <div class="education-meta reveal"><span data-education="bachelor.period"></span><strong data-education="bachelor.degree"></strong></div>
+          <div class="school-pair" data-education-schools="bachelor"></div>
+          <div class="education-footer reveal"><p data-education="bachelor.summary"></p><div class="fact-tags" data-education-facts="bachelor"></div></div>
+        </div>
+      </section>
+
+      <section class="page education-page education-page--master" id="master" data-section="master">
+        <div class="page__inner education-page__inner">
+          <div class="section-top reveal"><span class="eyebrow">EDUCATION / MASTER</span><span class="scene-code">PAGE 02 / 02</span></div>
+          <div class="education-heading">
+            <span class="chapter-number reveal">02</span>
+            <div><p class="display-kicker reveal" data-education="master.kicker"></p><h2 class="display-title reveal" data-education="master.title"></h2></div>
+          </div>
+          <div class="education-meta reveal"><span data-education="master.period"></span><strong data-education="master.degree"></strong></div>
+          <div class="school-pair" data-education-schools="master"></div>
+          <div class="education-footer reveal"><p data-education="master.summary"></p><div class="fact-tags" data-education-facts="master"></div></div>
+        </div>
+      </section>
+
+      <section class="page internships-page internships-page--light" id="internships" data-section="internships">
+        <div class="page__inner">
+          <div class="section-top reveal"><span class="eyebrow">INTERNSHIPS / PRACTICE</span><span class="scene-code">SCENE 03</span></div>
+          <div class="internships-heading reveal"><p class="display-kicker">FIELD EXPERIENCE</p><h2 class="display-title">能力之前，<br /><em>先经过现场。</em></h2><p>从 AI 公司到项目现场，从数据标注到多方协调，实习经历构成能力卡片背后的事实基础。</p></div>
+          <div class="internship-list" data-internship-list></div>
+        </div>
+      </section>
+
+      <section class="page capabilities-page" id="capabilities" data-section="capabilities">
+        <div class="page__inner">
+          <div class="section-top reveal"><span class="eyebrow">CAPABILITY INDEX / ABILITIES ONLY</span><span class="scene-code">SCENE 04 / CLICK TO EXPAND</span></div>
+          <div class="capabilities-heading reveal"><p class="display-kicker">CAPABILITIES</p><h2 class="display-title">能力，<em>各自成章。</em></h2><p>页面这里只展示能力卡片。点击任意卡片，打开完整的技能说明、工具、项目、具体工作与产出。</p></div>
+          <div class="capability-group">
+            <div class="group-label reveal"><span>CORE CAPABILITIES</span><i></i><small>03 CARDS</small></div>
+            <div class="card-grid card-grid--core" data-skill-grid="core"></div>
+          </div>
+          <div class="capability-group">
+            <div class="group-label reveal"><span>SUPPORTING CAPABILITIES</span><i></i><small>06 CARDS</small></div>
+            <div class="card-grid card-grid--support" data-skill-grid="support"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page projects-page" id="projects" data-section="projects">
+        <div class="page__inner">
+          <div class="section-top reveal"><span class="eyebrow">PROJECT EVIDENCE / SELECTED RECORDS</span><span class="scene-code">SCENE 04</span></div>
+          <div class="projects-heading reveal"><p class="display-kicker">PROJECTS / EVIDENCE</p><h2 class="display-title">能力经过<br /><em>现场。</em></h2></div>
+          <div class="project-list" data-project-list></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page footer-page" id="end-credits">
+      <div class="page__inner footer-page__inner">
+        <p class="opening__pretitle reveal">END CREDITS / LOCAL ONLY</p>
+        <h2 class="footer-page__title reveal" data-footer="line"></h2>
+        <p class="footer-page__subline reveal" data-footer="subline"></p>
+        <a class="button button--primary reveal" data-profile-link="email">开始一次对话 <span>↗</span></a>
+        <div class="footer-page__bottom reveal"><span data-footer="copyright"></span><span>© 2026</span></div>
+      </div>
+    </footer>
+
+    <div class="modal" data-modal hidden>
+      <div class="modal__backdrop" data-modal-close></div>
+      <section class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+        <button class="modal__close" type="button" data-modal-close aria-label="关闭能力详情">×</button>
+        <div class="modal__body" data-modal-body></div>
+      </section>
+    </div>
+  </body>
+</html>
