@@ -135,7 +135,23 @@ window.resumeContent = {
       outputs: ["中文专业表达", "英文沟通能力", "德语基础交流能力", "多方协作支持"]
     },
     {
-      id: "creative", group: "support", number: "09", label: "设计与创意", micro: "VISUAL LAYER", summary: "把想法变成能被看见、被理解的表达。",
+      id: "business", group: "support", number: "09", label: "业务理解", micro: "BUSINESS LAYER", summary: "把业务目标、流程和数据放进同一套判断框架。",
+      description: "在 AI、金融、水务与公共事务等场景中积累业务材料理解、流程梳理和问题拆解经验。",
+      tools: ["业务流程梳理", "需求分析", "资料分析", "问题拆解"],
+      projects: ["浦发银行 Agent 与 LLM 开发支持", "水务改造项目", "财务材料管理"],
+      actions: ["理解业务目标与约束", "梳理业务流程和关键信息", "将问题拆分为可执行任务"],
+      outputs: ["业务材料结构化", "流程与问题清单", "具体业务成果待补充"]
+    },
+    {
+      id: "communication", group: "support", number: "10", label: "沟通协作", micro: "COLLABORATION LAYER", summary: "让不同角色围绕同一个目标协同推进。",
+      description: "在 AI 公司、水务项目、跨文化学习与多方协作场景中，持续练习信息同步、任务协调与进度沟通。",
+      tools: ["团队协作", "多方沟通", "进度同步", "会议与汇报"],
+      projects: ["AI 公司项目管理", "水务项目多方协调", "悉尼大学项目管理学习"],
+      actions: ["同步任务与进度", "协调多方信息", "整理会议与项目材料"],
+      outputs: ["协作支持", "进度与问题同步", "更多案例待补充"]
+    },
+    {
+      id: "creative", group: "support", number: "11", label: "设计与创意", micro: "VISUAL LAYER", summary: "把想法变成能被看见、被理解的表达。",
       description: "具备 Adobe Photoshop、视频剪辑、原型展示与视觉沟通能力，可辅助项目表达和成果呈现。",
       tools: ["Adobe Photoshop", "视频剪辑", "原型展示", "视觉沟通"],
       projects: ["陪你学全阶段在线学习平台"],
